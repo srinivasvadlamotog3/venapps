@@ -15,7 +15,7 @@ public class HelloServlet  extends GenericServlet{
 			throws ServletException, IOException {
 		PrintWriter out=res.getWriter();
 		out.println("hello servlet");
-		
+		out.println("hello hw r u");
 	}
 
 }
